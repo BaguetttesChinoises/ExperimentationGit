@@ -17,7 +17,7 @@ public class TopicController {
     public List<Topic> yolo() {
         return topicsService.getAllTopics();
     }
-    
+
     @RequestMapping("/topics/{id}")
     public Topic yolo2 (@PathVariable String id) {
         return topicsService.getTopics(id);
