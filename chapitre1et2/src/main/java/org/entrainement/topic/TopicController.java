@@ -18,9 +18,10 @@ public class TopicController {
         return topicsService.getAllTopics();
     }
 
-    @RequestMapping("/topics/{id}")
+    @RequestMapping("/topics/{id}/jem'enbaslesCouilles")
     public Topic yolo2 (@PathVariable String id) {
         return topicsService.getTopics(id);
     }
+//entraineement sur les espaces
 
 }
