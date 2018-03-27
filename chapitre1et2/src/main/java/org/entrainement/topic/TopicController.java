@@ -13,12 +13,10 @@ public class TopicController {
 
     private TopicsService topicsService2 = new TopicsService();
 
-    @RequestMapping("/topicsEtCaCestLesModifs de Paul")
+    @RequestMapping("/topics")
     public List<Topic> yolo() {
         return topicsService.getAllTopics();
     }
-
-    paul sesn balec
 
     @RequestMapping("/topics/{id}")
     public Topic yolo2 (@PathVariable String id) {
